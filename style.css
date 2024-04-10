@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+header img {
+  width: 5%;
+}
+
+.hero {
+  background-image: url(img/bg-masthead.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+.hero button {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  border: 1px solid blue;
+  border-radius: 7px;
+}
+
+.black {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.black h2 {
+  color: black;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40pxpx;
+}
+.black h3 {
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+}
+.black button {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 1px solid black;
+  border-radius: 7px;
+}
+
+.services {
+  background-color: blue;
+  text-align: center;
+  padding: 50px 0px;
+}
+.services h3 {
+  color: orange;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.services h2 {
+  color: white;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+.services .items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.services .items .inner-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services .items .inner-items .icon {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.services .items .inner-items .icon img {
+  width: 25px;
+}
+.services .items .inner-items h4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.services .items .inner-items p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.website {
+  background-image: url(img/bg-callout.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.website h3 {
+  color: black;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+.website button {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  border-radius: 1px solid blue;
+  border-radius: 7px;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 50px 100px;
+}
+.portfolio h3 {
+  color: orange;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio h2 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+.portfolio .projects {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.portfolio .projects .inner-projects {
+  width: 50%;
+  height: 40vh;
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 150px;
+  color: white;
+}
+.portfolio .projects .inner-projects h4 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+.portfolio .projects .inner-projects p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio .projects .one {
+  background-image: url(img/portfolio-1.jpg);
+}
+.portfolio .projects .two {
+  background-image: url(img/portfolio-2.jpg);
+}
+.portfolio .projects .three {
+  background-image: url(img/portfolio-3.jpg);
+}
+.portfolio .projects .four {
+  background-image: url(img/portfolio-4.jpg);
+}
+
+.final {
+  background-color: blue;
+  height: 50vh;
+  text-align: center;
+  padding: 50px 0px;
+}
+.final h3 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.final button {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stage {
+  background-image: url(./img/map.jpeg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 30vh;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.footer .term {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: blue;
+}
+.footer .term img {
+  height: 50px;
+  width: 50px;
+}
+.footer img {
+  padding-top: 25px;
+  padding-right: 15px;
+  padding: left 15px;
+}
+.footer close h3 {
+  color: black;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

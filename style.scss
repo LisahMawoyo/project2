@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{position: absolute; display: flex; justify-content: end; width: 100%;
+    img{width: 5%;}
+}
+
+.hero{
+    background-image: url(img/bg-masthead.jpg); height: 100vh; background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;
+    h1{font-size: 60px; font-family: Arial, Helvetica, sans-serif; margin-bottom: 20px;}
+    p{font-size: 20px; font-family: Arial, Helvetica, sans-serif; margin-bottom: 20px;}
+    button{background-color: blue; color: white; padding: 15px; border: 1px solid blue; border-radius: 7px;}
+}
+.black{
+    height: 50vh;
+    display: flex; justify-content: center; flex-direction: column; align-items: center;
+    h2{color: black; font-size: 30px; font-family: Arial, Helvetica, sans-serif;margin-bottom: 40pxpx;}
+    h3{color: black; font-size: 15px; font-family: Arial, Helvetica, sans-serif;margin-bottom: 40px;}
+    button{background-color:black; color: white; padding: 15px; border-radius: 1px solid black;  border-radius: 7px;}
+}
+
+.services{
+    background-color: blue; text-align: center; padding: 50px 0px;
+    h3{color: orange; margin-bottom: 15px; font-family: Arial, Helvetica, sans-serif;}
+    h2{color: white; margin-bottom: 30px; font-family: Arial, Helvetica, sans-serif; font-size: 35px;}
+    .items{display: flex; justify-content: space-evenly; 
+        .inner-items{display: flex; flex-direction: column; justify-content: center; align-items: center;
+            .icon{height: 100px; width: 100px; background-color: white; display: flex; justify-content: center; align-items: center; border-radius: 100%; margin-bottom: 20px;
+                img{width: 25px;}
+            }
+            h4{color: white; font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; font-size: 25px;}
+            p{color: white; font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; font-size: 17px;}
+        }
+    }
+}
+.website{background-image: url(img/bg-callout.jpg); height: 100vh; background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center; 
+    h3{color: black; font-size: 40px; font-family: Arial, Helvetica, sans-serif;margin-bottom: 15px;}
+    button{background-color: blue; color: white; padding: 15px; border-radius: 1px solid blue; border-radius: 7px;}
+}
+
+.portfolio{text-align: center; padding: 50px 100px;
+    h3{color: orange; margin-bottom: 15px; font-family: Arial, Helvetica, sans-serif;}
+    h2{font-size: 30px; font-family: Arial, Helvetica, sans-serif; margin-bottom: 30px;}
+    .projects{display: flex; flex-wrap: wrap; width: 100%;
+        .inner-projects{width: 50%; height: 40vh; text-align: left; padding-left: 70px; padding-top: 150px; color: white;
+            h4{font-size: 25px; font-family: Arial, Helvetica, sans-serif; margin-bottom: 15px;}
+            p{font-size: 20px; font-family: Arial, Helvetica, sans-serif;}
+        }
+        .one{background-image: url(img/portfolio-1.jpg);}
+        .two{background-image: url(img/portfolio-2.jpg);}
+        .three{background-image: url(img/portfolio-3.jpg);}
+        .four{background-image: url(img/portfolio-4.jpg);}
+    }
+}
+.final{background-color: blue;height: 50vh; text-align: center; padding: 50px 0px;
+h3{ color:white; margin-bottom: 15px; font-size: 30px; font-family: Arial, Helvetica, sans-serif; }
+button{font-size: 15px; font-family: Arial, Helvetica, sans-serif;}
+}
+.stage{
+    background-image: url(./img/map.jpeg); height: 80vh; background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+.footer{height: 30vh; text-align: center; display: flex; flex-direction: row; align-items: center; justify-content: center; margin-top: 50px; column-gap: 20px;
+.term{height: 70px; width: 70px; border-radius: 100%; background-color: blue;}
+.term img{ height: 50px; width: 50px;}
+img{ padding-top: 25px; padding-right: 15px; padding: left 15px; ;}
+close h3{color: black; font-size: 20px;  display: flex; text-align: center;justify-content: center; flex-direction: column; align-items: center;}}
